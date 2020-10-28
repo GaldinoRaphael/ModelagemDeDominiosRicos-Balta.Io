@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ContextoDePagamento.Shared\ContextoDePagamento.Shared.Csproj" />
+    <ProjectReference Include="..\ContextoDePagamento.Domain\ContextoDePagamento.Domain.Csproj" />
+  </ItemGroup>
+
 </Project>
