@@ -1,4 +1,5 @@
 using System;
+using ContextoDePagamento.Domain.ValueObjects;
 
 namespace ContextoDePagamento.Domain.Entidades
 {
@@ -13,9 +14,9 @@ namespace ContextoDePagamento.Domain.Entidades
         decimal total,
         decimal totalPago,
         string pagante,
-        string documento,
-        string endereco,
-        string email)
+        Documento documento,
+        Endereco endereco,
+        Email email)
         : base(dataDoPagamento, dataDeExpiracao, total, totalPago, pagante, documento, endereco, email)
         {
             NomeDoTitularDoCartao = nomeDoTitularDoCartao;
