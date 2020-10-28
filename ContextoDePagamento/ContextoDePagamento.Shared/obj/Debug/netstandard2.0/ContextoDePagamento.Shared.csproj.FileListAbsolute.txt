@@ -1,0 +1,9 @@
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\bin\Debug\netstandard2.0\ContextoDePagamento.Shared.deps.json
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\bin\Debug\netstandard2.0\ContextoDePagamento.Shared.dll
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\bin\Debug\netstandard2.0\ContextoDePagamento.Shared.pdb
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\obj\Debug\netstandard2.0\ContextoDePagamento.Shared.csprojAssemblyReference.cache
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\obj\Debug\netstandard2.0\ContextoDePagamento.Shared.AssemblyInfoInputs.cache
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\obj\Debug\netstandard2.0\ContextoDePagamento.Shared.AssemblyInfo.cs
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\obj\Debug\netstandard2.0\ContextoDePagamento.Shared.csproj.CoreCompileInputs.cache
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\obj\Debug\netstandard2.0\ContextoDePagamento.Shared.dll
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.Shared\obj\Debug\netstandard2.0\ContextoDePagamento.Shared.pdb
