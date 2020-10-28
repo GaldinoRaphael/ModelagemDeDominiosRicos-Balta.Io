@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MRsOHer7uR2nJu4mPHU16qqSybnsvaHfQTqVNDn41Nh4b3SaCfBnrLANd4ykGIz4d2Q77DaP/YL4z+GlXtGcjg==",
+  "dgSpecHash": "4WjWY4tFxDiEQWTGamtmgNvEtoEgWJNA9UcKL4Njxzq08Gd+B6kt9+k4NMnkM0P93VIIiRdiW+WiWU8RwYUMag==",
   "success": true,
   "projectFilePath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\NOVA\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Users\\NOVA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\NOVA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

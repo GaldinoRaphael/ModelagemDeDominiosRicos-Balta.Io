@@ -3,7 +3,7 @@ using ContextoDePagamento.Shared.ValueObjects;
 
 namespace ContextoDePagamento.Domain.ValueObjects
 {
-    public class Documento
+    public class Documento : ValueObject
     {
         public Documento(string numero, EDocumentoTipo tipo)
         {

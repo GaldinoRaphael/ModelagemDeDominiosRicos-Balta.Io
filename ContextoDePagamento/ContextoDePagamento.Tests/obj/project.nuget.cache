@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SSIc9UXivVlh7ESSFMFkAfhmYLyynS0bIMaRb00I4I+t0JhBGkSYeOEegd0E4akGmM/FphStAVzr55qaffKeRA==",
+  "dgSpecHash": "tWQ4gA4+Kxvybc6KImSl1sEEgC2iWQ6nHBtAlb4sFsdV6KK6vB7oph7mfX0yBw2Os0UYFzZXCJVWAsVXXAqFNw==",
   "success": true,
-  "projectFilePath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.tests\\ContextoDePagamento.tests.csproj",
+  "projectFilePath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Tests\\ContextoDePagamento.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NOVA\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\NOVA\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Users\\NOVA\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\NOVA\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\NOVA\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
