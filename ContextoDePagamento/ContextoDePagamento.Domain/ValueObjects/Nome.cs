@@ -10,10 +10,7 @@ namespace ContextoDePagamento.Domain.ValueObjects
             PrimeiroNome = primeiroNome;
             SobreNome = sobreNome;
 
-            AddNotifications(new Contract()
-            .Requires()
-            .HasMinLen(PrimeiroNome, 3, "Nome.PrimeiroNome", "Nome inválido")
-            .HasMaxLen(SobreNome, 3, "Nome.SobreNome", "Nome inválido"));
+
         }
 
         public string PrimeiroNome { get; private set; }

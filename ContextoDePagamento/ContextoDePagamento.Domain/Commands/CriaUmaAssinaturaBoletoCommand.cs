@@ -1,10 +1,13 @@
 using System;
 using ContextoDePagamento.Domain.Enums;
 using ContextoDePagamento.Domain.ValueObjects;
+using ContextoDePagamento.Shared.Commands;
+using Flunt.Notifications;
+using Flunt.Validations;
 
 namespace ContextoDePagamento.Domain.Commands
 {
-    public class CriaUmaAssinaturaBoletoCommand
+    public class CriaUmaAssinaturaBoletoCommand : Notifiable, ICommand
     {
         public string PrimeiroNome { get; set; }
         public string SobreNome { get; set; }
@@ -29,5 +32,13 @@ namespace ContextoDePagamento.Domain.Commands
         public string Pais { get; set; }
         public string Cep { get; set; }
         public Email PaganteEmail { get; set; }
+
+        public void Validacao()
+        {
+            AddNotifications(new Contract()
+                .Requires()
+                .HasMinLen(PrimeiroNome, 3, "Nome.PrimeiroNome", "Nome inválido")
+                .HasMaxLen(SobreNome, 3, "Nome.SobreNome", "Nome inválido"));
+        }
     }
 }
