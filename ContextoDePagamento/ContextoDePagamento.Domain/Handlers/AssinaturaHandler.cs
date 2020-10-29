@@ -61,6 +61,10 @@ namespace ContextoDePagamento.Domain.Handlers
             //Aplicar validações
             AddNotifications(nome, documento, email, endereco, estudante, pagamento);
 
+            //Checar as notificações
+            if (Invalid)
+                return new CommandResult(false, "Não foi possível realizar sua assintura");
+
             //Salvar as informações
             _respositorio.CriaAssinatura(estudante);
 
