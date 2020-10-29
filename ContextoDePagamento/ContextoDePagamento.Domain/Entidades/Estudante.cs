@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ContextoDePagamento.Domain.ValueObjects;
 using ContextoDePagamento.Shared.Entidades;
+using Flunt.Validations;
 
 namespace ContextoDePagamento.Domain.Entidades
 {
@@ -25,12 +26,19 @@ namespace ContextoDePagamento.Domain.Entidades
         public IReadOnlyCollection<Assinatura> Assinaturas { get { return _assinaturas.ToArray(); } }
         public void AdicionarAssinatura(Assinatura assinatura)
         {
-            foreach (var ass in Assinaturas)
+
+            var temAssinaturaAtiva = false;
+
+            foreach (var ass in _assinaturas)
             {
-                ass.Desativar();
+                if (ass.Ativo)
+                    temAssinaturaAtiva = true;
             }
 
-            _assinaturas.Add(assinatura);
+            AddNotifications(new Contract()
+            .Requires()
+            .IsFalse(temAssinaturaAtiva, "Estudante.Assinaturas", "Você já uma assinatura ativa")
+            .AreEquals(0, assinatura.Pagamentos.Count, "Estudante.Assinatura.Pagamento", "Esta assinatura não possui pagamentos"));
         }
     }
 }

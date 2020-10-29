@@ -1,4 +1,5 @@
 using ContextoDePagamento.Shared.ValueObjects;
+using Flunt.Validations;
 
 namespace ContextoDePagamento.Domain.ValueObjects
 {
@@ -9,8 +10,10 @@ namespace ContextoDePagamento.Domain.ValueObjects
             PrimeiroNome = primeiroNome;
             SobreNome = sobreNome;
 
-            if (string.IsNullOrEmpty(PrimeiroNome))
-                AddNotification("Nome.PrimeiroNome", "Nome inválido");
+            AddNotifications(new Contract()
+            .Requires()
+            .HasMinLen(PrimeiroNome, 3, "Nome.PrimeiroNome", "Nome inválido")
+            .HasMaxLen(SobreNome, 3, "Nome.SobreNome", "Nome inválido"));
         }
 
         public string PrimeiroNome { get; private set; }

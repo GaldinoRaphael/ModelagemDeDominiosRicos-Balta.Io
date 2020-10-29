@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj": {
-                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj"
+              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj": {
+                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj"
               }
             }
           }
@@ -50,7 +50,7 @@
             },
             "flunt": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[1.0.5, )"
             }
           },
           "imports": [
@@ -67,12 +67,12 @@
         }
       }
     },
-    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj": {
+    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj",
+        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj",
         "projectName": "ContextoDePagamento.Shared",
-        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj",
+        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
         "outputPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\obj\\",
         "projectStyle": "PackageReference",
@@ -106,6 +106,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
             }
           },
           "imports": [

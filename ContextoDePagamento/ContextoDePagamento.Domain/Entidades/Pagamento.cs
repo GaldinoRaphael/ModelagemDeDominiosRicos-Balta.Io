@@ -1,9 +1,10 @@
 using System;
 using ContextoDePagamento.Domain.ValueObjects;
+using ContextoDePagamento.Shared.Entidades;
 
 namespace ContextoDePagamento.Domain.Entidades
 {
-    public abstract class Pagamento
+    public abstract class Pagamento : Entidade
     {
         public Pagamento(DateTime dataDoPagamento, DateTime dataDeExpiracao, decimal total, decimal totalPago, string pagante, Documento documento, Endereco endereco, Email email)
         {

@@ -38,6 +38,9 @@
       "ContextoDePagamento.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "flunt": "1.0.5"
+        },
         "compile": {
           "bin/placeholder/ContextoDePagamento.Shared.dll": {}
         },
@@ -206,15 +209,15 @@
     },
     "ContextoDePagamento.Shared/1.0.0": {
       "type": "project",
-      "path": "../ContextoDePagamento.Shared/ContextoDePagamento.Shared.Csproj",
-      "msbuildProject": "../ContextoDePagamento.Shared/ContextoDePagamento.Shared.Csproj"
+      "path": "../ContextoDePagamento.Shared/ContextoDePagamento.Shared.csproj",
+      "msbuildProject": "../ContextoDePagamento.Shared/ContextoDePagamento.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "ContextoDePagamento.Shared >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
-      "flunt >= *"
+      "flunt >= 1.0.5"
     ]
   },
   "packageFolders": {
@@ -243,8 +246,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj": {
-              "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj"
+            "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj": {
+              "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj"
             }
           }
         }
@@ -266,7 +269,7 @@
           },
           "flunt": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[1.0.5, )"
           }
         },
         "imports": [

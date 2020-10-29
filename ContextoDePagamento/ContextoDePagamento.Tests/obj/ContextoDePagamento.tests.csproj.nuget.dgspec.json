@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Tests\\ContextoDePagamento.Tests.csproj": {}
+    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.tests\\ContextoDePagamento.tests.csproj": {}
   },
   "projects": {
-    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.Csproj": {
+    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.Csproj",
+        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.csproj",
         "projectName": "ContextoDePagamento.Domain",
-        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.Csproj",
+        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
         "outputPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj": {
-                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj"
+              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj": {
+                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj"
               }
             }
           }
@@ -67,12 +67,12 @@
         }
       }
     },
-    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj": {
+    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj",
+        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj",
         "projectName": "ContextoDePagamento.Shared",
-        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj",
+        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
         "outputPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\obj\\",
         "projectStyle": "PackageReference",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Tests\\ContextoDePagamento.Tests.csproj": {
+    "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.tests\\ContextoDePagamento.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Tests\\ContextoDePagamento.Tests.csproj",
-        "projectName": "ContextoDePagamento.Tests",
-        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Tests\\ContextoDePagamento.Tests.csproj",
+        "projectUniqueName": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.tests\\ContextoDePagamento.tests.csproj",
+        "projectName": "ContextoDePagamento.tests",
+        "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.tests\\ContextoDePagamento.tests.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
-        "outputPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Tests\\obj\\",
+        "outputPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,11 +149,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.Csproj": {
-                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.Csproj"
+              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.csproj": {
+                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Domain\\ContextoDePagamento.Domain.csproj"
               },
-              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj": {
-                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.Csproj"
+              "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj": {
+                "projectPath": "C:\\LAB\\ModelagemDeDominiosRicos-Balta.Io\\ContextoDePagamento\\ContextoDePagamento.Shared\\ContextoDePagamento.Shared.csproj"
               }
             }
           }
@@ -185,7 +185,7 @@
             },
             "flunt": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[1.0.5, )"
             }
           },
           "imports": [

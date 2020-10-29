@@ -96,3 +96,4 @@ C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento
 C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.tests\bin\Debug\netcoreapp3.1\ContextoDePagamento.Shared.dll
 C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.tests\bin\Debug\netcoreapp3.1\ContextoDePagamento.Shared.pdb
 C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.tests\bin\Debug\netcoreapp3.1\ContextoDePagamento.Domain.pdb
+C:\LAB\ModelagemDeDominiosRicos-Balta.Io\ContextoDePagamento\ContextoDePagamento.tests\bin\Debug\netcoreapp3.1\Flunt.dll
